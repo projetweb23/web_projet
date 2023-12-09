@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Police';
+    src: url(police/Roboto-Black.ttf);
+    font-family: 'road';
+    src: url(police/HedvigLettersSerif-Regular-VariableFont_opsz.ttf);
+}
+body{
+    background-image: linear-gradient(to top right,#443C77,white 40%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Police',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3rem ;
+    font-family: 'road',sans-serif;
+    transition-duration: 0.5s;
+}
+header>img{
+    width: 4%;
+    height: 4%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+    transition: 0.5s;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section{
+    margin-top: 1.5rem;
+    border:  #1b3542 2px solid;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 8px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #1b3542;
+    box-shadow: 10px 5px 5px #443C77;
+}
+.textduchamp{
+    font-size: large;
+}
+.champ{
+    width:30vw;
+    height:2rem;
+    border-radius: 12px;
+    background-color: #DFDFDF;
+    padding: 0.5rem;
+}
+#boutton_envoyer{
+    border-radius: 9px;
+    width:30vw;
+    background-color:  white;
+    color: white;
+    font-family:'Police',sans-serif;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: large;
+    transition: 0.25s;
+    color: black;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+label{
+    color: white;
+}
+#compte{
+    color: white;
+}
+h1:hover{
+    color:#443C77 ;
+}
+header>img:hover{
+    box-shadow: 10px 5px 5px #443C77;
+}
+#boutton_envoyer:hover{
+    box-shadow: 5px 5px 2px  #443C77;
+}

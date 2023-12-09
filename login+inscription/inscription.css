@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Police';
+    src: url(police/Roboto-Regular.ttf);
+    font-family: 'road';
+    src: url(police/HedvigLettersSerif-Regular-VariableFont_opsz.ttf);
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #ffffff 50%, #1b3542);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 3px;
+    margin-left: 5vw; 
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: 'road',sans-serif;
+    transition-duration: 0.5s;
+}
+header>img{
+    width: 4%;
+    height: 4%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+    transition: 0.5s;
+}
+.texteduchamp{
+    display: inline-block;
+    width: 250px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Police',sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section{
+    margin-top: 1.5rem;
+    width: 50vw;
+    border:  #443C77 2px solid;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 8px;
+    padding-right:1rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.champ{
+    width:30vw;
+    height:2rem;
+    border-radius: 12px;
+    background-color: #b3b7bf;
+    padding: 0.5rem;
+    transition: 0.5s;
+    color: white;
+}
+.champr{
+    height: 1rem;
+    width:5vw;
+    border-radius: 12px;
+    background-color: #b3b7bf;
+    padding: 0.5rem;
+    transition: 0.5s;
+    color: white;
+
+}
+.radioo{
+    font-size: 1.5rem;
+    font-family: 'Police',sans-serif;
+
+}
+#boutton_envoyer{
+    border-radius: 9px;
+    width:30vw;
+    background-color:  white;
+    color: white;
+    font-family: 'Police',sans-serif;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: large;
+    transition: 0.25s;
+    color: black;
+}
+#entreedate{
+    padding:1rem ;
+    border-radius: 12px;
+    color: white;
+    transition: 0.25s;
+    background-color: #b3b7bf;
+}
+#entreedate:hover{
+    background-color: #1b3542;
+
+}
+#filiere{
+    width: auto;
+    padding:1rem ;
+    border-radius: 12px;
+    color: white;
+    transition: 0.25s;
+    background-color: #b3b7bf;
+}
+#filiere:hover{
+    background-color: #1b3542;
+
+}
+#ville{
+    width: auto;
+    padding:1rem ;
+    border-radius: 12px;
+    color: white;
+    transition: 0.25s;
+    background-color: #b3b7bf;
+}
+#ville:hover{
+    background-color: #1b3542;
+
+}
+h1:hover{
+    color:#443C77 ;
+}
+header>img:hover{
+    box-shadow: 10px 5px 5px #443C77;
+}
+#boutton_envoyer:hover{
+    box-shadow: 5px 5px 2px  #443C77;
+}
+.information {
+    padding-top: 10%; 
+    color: white    ;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    width: auto;
+    font-size: 3rem;
+    font-family: 'road',sans-serif;
+}
+.champ:hover{
+    background-color: #1b3542;
+}
+::placeholder{
+    color: white;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+select::-ms-expand {
+    display: none;
+}
